@@ -3,9 +3,9 @@
 Generic convolutional neural network for audio classification with spectrograms.  
 Developed in Pytorch
 
-classification.py: main script to run classification  
-audiocnn.py: model architecture is kept here  
-params_and_dataloader.py: argparse variables initialized here. Contain the dataloader method which imports from imgfoldergreyscale.py. As name suggests this dataloader is modified from the folder method in the Pytorch repo to read in greyscale (single-channel) images.  
+**classification.py**: main script to run classification  
+**audiocnn.py**: model architecture is kept here  
+**params_and_dataloader.py**: argparse variables initialized here. Contains the dataloader method which imports from imgfoldergreyscale.py. As the name suggests this dataloader is modified from the folder method in the Pytorch repo to read in greyscale (single-channel) images.  
 
 Example use:  
 
