@@ -50,6 +50,7 @@ parameters={
 }
 
 if opt.cnn != '': # load checkpoint if needed
+    print("Loading existing checkpoint...")
     cnn.load_state_dict(torch.load(opt.cnn))
 print(cnn)
 if opt.cuda:
