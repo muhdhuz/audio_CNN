@@ -9,7 +9,7 @@ params_and_dataloader.py: argparse variables initialized here. Contain the datal
 
 Example use:  
 
-**To continue training with a 2D CNN from an exiting checkpoint. Training images kept in /data/train and test images in /data/test**
+**To continue training with a 2D CNN from an existing checkpoint. Training images kept in /data/train and test images in /data/test**
 ```bash
 python classification.py --trainfolder ./data/train --testfolder ./data/test --outfolder 2d --orientation 2D --l1channels 18 --l2channels 36 --l3channels 72 --num_epochs 31 --kernelsize 11 --cnn ./2d/2017-12-07_13-31-05_cnn_epoch20.pth
 ```
